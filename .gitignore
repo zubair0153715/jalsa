@@ -1,0 +1,12 @@
+# Jalsa — never commit secrets, keys, databases, or credentials
+.env
+*.env
+*secret*
+*key*.json
+*.db
+*.sqlite*
+__pycache__/
+*.pyc
+.venv/
+dist/
+build/
